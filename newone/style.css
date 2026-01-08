@@ -1,0 +1,37 @@
+@media only screen and (max-width:400px){
+    #container{
+        margin-left: 13px;
+        gap: 10px;
+        overflow: hidden;
+    }
+    .nav{
+        display: none;
+    }
+    .logo{
+        width: 160px;
+        margin-left: -20px;
+    }
+    #menus{
+        display: block;
+    }
+    #cart{
+        width: 175px;
+    }
+    #cart button{
+        width: 175px;
+    }
+    #menu{
+        display:flex;
+    }
+    #menu a img{
+        width: 25px;
+        margin-left: 10px;
+    }
+    #main img{
+        width: 374px;
+        height: 200px;
+        margin-left:13px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+}
